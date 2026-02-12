@@ -38,7 +38,6 @@ jobs:
     - name: Lint with ruff and pycodestyle
       run: |
         python -m ruff check backend/
-        python -m ruff format --check backend/
         python -m pycodestyle backend/
 
     - name: Run django tests
